@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Auto Form Filler</title>
+  <style>
+    body {
+      font-family: Roboto, Arial, sans-serif;
+      width: 250px;
+      margin: 0;
+      padding: 1rem;
+    }
+    button {
+      width: 100%;
+      padding: 0.8rem;
+      background: #ea4335;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #c53929;
+    }
+    #status {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      text-align: center;
+      color: green;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <button id="autofillBtn">Autofill This Form</button>
+  <div id="status">Autofill sent!</div>
+  <a href="profile.html" target="_blank">Profile Setup</a>
+  <script src="popup.js"></script>
+</body>
+</html>
